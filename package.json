@@ -1,0 +1,32 @@
+{
+    "name": "cocktail-dark",
+    "displayName": "cocktail-dark",
+    "description": "Just another Dark Teme... for python devs.",
+    "repository": {
+        "url": "https://github.com/ahartlba/cocktail_theme_vscode"
+    },
+    "version": "1.0.0",
+    "publisher": "AndreasHartl",
+    "keywords": [
+        "theme",
+        "dark-theme",
+        "python",
+        "ai"
+    ],
+    "icon": "images/Logo.png",
+    "engines": {
+        "vscode": "^1.74.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Cocktail Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Cocktail Dark-color-theme.json"
+            }
+        ]
+    }
+}
